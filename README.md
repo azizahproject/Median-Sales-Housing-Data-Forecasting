@@ -66,43 +66,49 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ---
 
-### 3. Calculating Seasonal Value (January 2013)
+### 3. Calculating Seasonal Value (Jan 2013 - April 2025)
 
 - Using seasonal formula:
+  
   <img width="197" alt="Image" src="https://github.com/user-attachments/assets/2bfdc7ff-296a-4cf4-b2a9-07e3578a7ee8" />
-  *Dropdown that formula until end the data.*
+  
+  *Dropdown that formula until end the data (April 2025).*
 
 ---
 
-### 4. Updating Level and Trend (February 2013)
+### 4. Updating Level and Trend (Feb 2013 - April 2025)
 
 - Level update:
+  
   <img width="296" alt="image" src="https://github.com/user-attachments/assets/0eb21c69-bbdc-460c-baad-44cc1711ad15" />
-  *Dropdown that formula until end the data.*
+  
+  *Dropdown that formula until end the data (April 2025).*
 
 
 - Trend update:
+  
   <img width="163" alt="image" src="https://github.com/user-attachments/assets/2f7f4dab-5d77-4f98-bb49-0d5bfbe34459" />
- *Dropdown that formula until end the data.*
+  
+ *Dropdown that formula until end the data (April 2025).*
 
 
 ---
 
 ### 5. Forecasting (Feb 2013 – April 2025)
 
-- Forecast for \( m \) steps ahead:  
-  \[
-  \hat{y}_{t+m} = \ell_t + mb_t + s_{t-L+m}
-  \]
-- All values are calculated using Excel formulas applied row-by-row, including seasonal index wrap-around using `MOD`.
+- Forecast:
+  
+  <img width="297" alt="image" src="https://github.com/user-attachments/assets/3cb6c641-b1b5-49d4-8275-de8b669874ec" />
+
+  *Dropdown that formula until end the data (April 2025).*
+
 
 ---
 
 ### 6. Extended Forecast (May 2025 – December 2025)
 
-- Extended 8-month forecast beyond existing data using the latest known:
+- Extended 8-month forecast:
   - \( \ell_t \), \( b_t \), and repeated seasonal pattern.
-- No actual values exist for this period — this is **pure forecast** for forward planning.
 
 ---
 
