@@ -43,46 +43,48 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ### 2. Initializing Values
 
+- **Declare α, β, and γ **:
+  - α = 0.5
+  - β = 0.5
+  - γ = 0.5
+
 - **Seasonal Index (Initial)**:  
   - Calculated from the **first full year (2012)** by dividing each month's value by the average of all 12 months in that year.
 
     <img width="135" alt="Image" src="https://github.com/user-attachments/assets/ac51ec8d-1cbd-4982-8526-46a7647252bf" />
   - Seasonal index for each month is stored for use in later calculations.
 
-    <img width="710" alt="Image" src="https://github.com/user-attachments/assets/3fd5bb0c-7f4d-42bc-afb2-2eb725b928ee" />
+    <img width="708" alt="Image" src="https://github.com/user-attachments/assets/4a369a91-ef69-484f-98af-8d663e765f76" />
 
 - **Initial Level (L13)** and **Initial Trend (T13)**:  
   - Set in **January 2013**:
 
     <img width="516" alt="Image" src="https://github.com/user-attachments/assets/8990ec0a-8b8a-4280-a385-135273f93b74" />
 
-    <img width="709" alt="Image" src="https://github.com/user-attachments/assets/c3ad4769-7926-4f01-a7f0-d5885197614f" />
+    <img width="707" alt="image" src="https://github.com/user-attachments/assets/9bb30b31-433c-4619-8659-5dfb6d489ca1" />
+
 
 ---
 
 ### 3. Calculating Seasonal Value (January 2013)
 
-- Using the additive seasonal formula:
+- Using seasonal formula:
   <img width="197" alt="Image" src="https://github.com/user-attachments/assets/2bfdc7ff-296a-4cf4-b2a9-07e3578a7ee8" />
+  *Dropdown that formula until end the data.*
 
 ---
 
 ### 4. Updating Level and Trend (February 2013)
 
 - Level update:  
-  \[
-  \ell_t = \alpha (y_t - s_{t-L}) + (1 - \alpha)(\ell_{t-1} + b_{t-1})
-  \]
+  <img width="296" alt="image" src="https://github.com/user-attachments/assets/0eb21c69-bbdc-460c-baad-44cc1711ad15" />
+  *Dropdown that formula until end the data.*
+
 
 - Trend update:  
-  \[
-  b_t = \beta (\ell_t - \ell_{t-1}) + (1 - \beta)b_{t-1}
-  \]
+ <img width="160" alt="image" src="https://github.com/user-attachments/assets/4b5e78ec-f503-44be-a9e7-3f1a0c1b62d6" />
+ *Dropdown that formula until end the data.*
 
-- Seasonal update:  
-  \[
-  s_t = \gamma (y_t - \ell_t) + (1 - \gamma)s_{t-L}
-  \]
 
 ---
 
