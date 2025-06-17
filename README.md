@@ -108,7 +108,11 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 ### 6. Extended Forecast (May 2025 – December 2025)
 
 - Extended 8-month forecast:
-  - \( \ell_t \), \( b_t \), and repeated seasonal pattern.
+
+  <img width="340" alt="image" src="https://github.com/user-attachments/assets/7cc95fb2-1ca6-4f96-a5d4-956b532b784a" />
+
+  *Dropdown that formula until end the data (December 2025).*
+
 
 ---
 
