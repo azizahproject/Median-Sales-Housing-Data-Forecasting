@@ -43,7 +43,7 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ### 2. Initializing Values
 
-- **Declare α, β, and γ **:
+- **Declare α, β, and γ**:
   - α = 0.5
   - β = 0.5
   - γ = 0.5
@@ -88,8 +88,8 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 - Trend update:
   
   <img width="163" alt="image" src="https://github.com/user-attachments/assets/2f7f4dab-5d77-4f98-bb49-0d5bfbe34459" />
-  
- *Dropdown that formula until end the data (April 2025).*
+
+  *Dropdown that formula until end the data (April 2025).*
 
 
 ---
@@ -126,19 +126,23 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
   *Dropdown that formula until end the data (April 2025).*
 
-  Mean Absolute Deviation (MAD):
-  <img width="140" alt="image" src="https://github.com/user-attachments/assets/91981bd7-429b-49b4-9fc4-5f156afc0064" />
+  **Mean Absolute Deviation (MAD)**:
+  
+  <img width="157" alt="image" src="https://github.com/user-attachments/assets/f84e0e45-10f3-41ed-bdaa-f9141b97fc13" />
 
 - Column **Error²**
-  
+  **Mean Squared Error (MSE)**:
 
+  <img width="148" alt="image" src="https://github.com/user-attachments/assets/4122e714-78b1-4f35-a63b-90883ab05748" />
 
-- **Mean Absolute Percentage Error (MAPE)** was used to evaluate the model:  
-  \[
-  \text{MAPE} = \frac{1}{n} \sum_{t=1}^{n} \left| \frac{y_t - \hat{y}_t}{y_t} \right| \times 100\%
-  \]
+- Column **Absolute %Error**
 
-- Other errors (optional): MAE, RMSE.
+  <img width="221" alt="image" src="https://github.com/user-attachments/assets/1ecc9205-618a-42a9-8628-4f2250d0f728" />
+
+  **Mean Absolute Percentage Error (MAPE)**:
+
+  <img width="217" alt="image" src="https://github.com/user-attachments/assets/a475427d-c6f1-4f17-aee9-4bcc7f00d1b2" />
+
 
 ---
 
