@@ -10,11 +10,12 @@ To forecast the median home sale prices and analyze patterns using Holt-Winters 
 
 ### 📁 Project Structure
 
-### 🛠️ Tools Used
+### 🛠️ Tools & File
 
 - Microsoft Excel
 - Holt-Winters Triple Exponential Smoothing
 - Charting
+File : [Median_Sales_Forecast.xlsx](https://github.com/azizahproject/Median-Sales-Housing-Data-Forecasting/raw/refs/heads/main/Median_Sales_Forecast.xlsx)
 
 ### 📈 Methodology
 
