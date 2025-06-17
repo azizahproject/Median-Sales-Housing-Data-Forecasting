@@ -114,6 +114,25 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ### 7. Calculating Forecast Error
 
+- Column **Error**:
+  
+  <img width="161" alt="image" src="https://github.com/user-attachments/assets/4a5a4ff4-901f-4dbc-8820-6d6ce62a4a35" />
+
+  *Dropdown that formula until end the data (April 2025).*
+
+- Column **|Error|**
+
+  <img width="89" alt="image" src="https://github.com/user-attachments/assets/1497653d-8534-4ae0-817c-d8c85606ad9f" />
+
+  *Dropdown that formula until end the data (April 2025).*
+
+  Mean Absolute Deviation (MAD):
+  <img width="140" alt="image" src="https://github.com/user-attachments/assets/91981bd7-429b-49b4-9fc4-5f156afc0064" />
+
+- Column **Error²**
+  
+
+
 - **Mean Absolute Percentage Error (MAPE)** was used to evaluate the model:  
   \[
   \text{MAPE} = \frac{1}{n} \sum_{t=1}^{n} \left| \frac{y_t - \hat{y}_t}{y_t} \right| \times 100\%
