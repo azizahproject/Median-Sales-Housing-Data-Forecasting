@@ -51,12 +51,12 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 - **Initial Level (ℓ₀)** and **Initial Trend (b₀)**:  
   - Set in **January 2013**:  
-    \[
+    $
     \ell_0 = y_{\text{Jan 2013}} - s_{\text{Jan}}  
-    \]  
-    \[
+    $  
+    $
     b_0 = \frac{y_{\text{Jan 2013}} - y_{\text{Jan 2012}}}{12}
-    \]
+    $
 
 ---
 
