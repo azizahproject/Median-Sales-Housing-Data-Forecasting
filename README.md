@@ -146,6 +146,20 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ---
 
+### 8. The Forecast Result
+
+![image](https://github.com/user-attachments/assets/9713df40-fa1e-474c-a46a-ed984439ed23)
+
+
+- **Excel Solver** was used to minimize MAPE by adjusting:
+  - \( \alpha \): Level smoothing factor
+  - \( \beta \): Trend smoothing factor
+  - \( \gamma \): Seasonal smoothing factor
+
+- Solver runs until the best parameter combination is found for **lowest possible error**.
+
+---
+
 ### 8. Optimizing Alpha, Beta, Gamma
 
 - **Excel Solver** was used to minimize MAPE by adjusting:
