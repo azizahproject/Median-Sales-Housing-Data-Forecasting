@@ -34,6 +34,8 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ### 1. Visualizing the Original Data
 
+<img width="468" alt="Image" src="https://github.com/user-attachments/assets/7603d321-b984-4d7c-9065-c06a56a11139" />
+
 - A line chart was created to observe the **median sale price** from 2012 to 2025.
 - The chart shows both **upward trend** and **seasonal fluctuations**, indicating that the **Holt-Winters Triple Exponential Smoothing (Additive)** model is suitable for forecasting.
 
