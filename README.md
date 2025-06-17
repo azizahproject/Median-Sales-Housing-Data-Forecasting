@@ -76,13 +76,13 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ### 4. Updating Level and Trend (February 2013)
 
-- Level update:  
+- Level update:
   <img width="296" alt="image" src="https://github.com/user-attachments/assets/0eb21c69-bbdc-460c-baad-44cc1711ad15" />
   *Dropdown that formula until end the data.*
 
 
-- Trend update:  
- <img width="160" alt="image" src="https://github.com/user-attachments/assets/4b5e78ec-f503-44be-a9e7-3f1a0c1b62d6" />
+- Trend update:
+  <img width="163" alt="image" src="https://github.com/user-attachments/assets/2f7f4dab-5d77-4f98-bb49-0d5bfbe34459" />
  *Dropdown that formula until end the data.*
 
 
