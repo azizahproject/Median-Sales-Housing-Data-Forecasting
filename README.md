@@ -1,14 +1,17 @@
 # Forecasting Median Sale Price of U.S. Housing Market Using Holt-Winters Method (Excel)
 
 ###📋 Project Overview
+
 This project focuses on time series forecasting of median sale prices in the U.S. housing market using the Holt-Winters method. The data was sourced from Redfin and analyzed using Microsoft Excel, with the aim of identifying future trends based on seasonal and trend components.
 
 ###🔍 Objective
+
 To forecast the median home sale prices and analyze patterns using Holt-Winters Triple Exponential Smoothing to support data-driven real estate insights.
 
 ###📁 Project Structure
 
 ###🛠️ Tools Used
+
 - Microsoft Excel
 - Holt-Winters Triple Exponential Smoothing
 - Charting
