@@ -57,6 +57,7 @@ This section explains the complete step-by-step implementation of the Holt-Winte
     $
     b_0 = \frac{y_{\text{Jan 2013}} - y_{\text{Jan 2012}}}{12}
     $
+    <img width="709" alt="Image" src="https://github.com/user-attachments/assets/c3ad4769-7926-4f01-a7f0-d5885197614f" />
 
 ---
 
