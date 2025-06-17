@@ -45,8 +45,10 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 - **Seasonal Index (Initial)**:  
   - Calculated from the **first full year (2012)** by dividing each month's value by the average of all 12 months in that year.
+
     <img width="255" alt="Image" src="https://github.com/user-attachments/assets/91603d7e-9e9b-4c20-8912-7b36b6997781" />
   - Seasonal index for each month is stored for use in later calculations.
+
     <img width="710" alt="Image" src="https://github.com/user-attachments/assets/3fd5bb0c-7f4d-42bc-afb2-2eb725b928ee" />
 
 - **Initial Level (ℓ₀)** and **Initial Trend (b₀)**:  
