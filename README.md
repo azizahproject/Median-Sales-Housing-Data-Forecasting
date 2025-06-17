@@ -54,7 +54,7 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 - **Initial Level (L13)** and **Initial Trend (T13)**:  
   - Set in **January 2013**:
 
-    <img width="515" alt="Image" src="https://github.com/user-attachments/assets/cc54f915-760e-45ed-9de4-954ba439b495" />
+    <img width="516" alt="Image" src="https://github.com/user-attachments/assets/2fa44a0c-90bc-422c-ad85-630295ea6645" />
 
     <img width="709" alt="Image" src="https://github.com/user-attachments/assets/c3ad4769-7926-4f01-a7f0-d5885197614f" />
 
