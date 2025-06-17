@@ -148,15 +148,21 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ### 8. The Forecast Result
 
-![image](https://github.com/user-attachments/assets/9713df40-fa1e-474c-a46a-ed984439ed23)
+Using α, β, and γ:
+- α = 0.5
+- β = 0.5
+- γ = 0.5
 
+The forecast results are plotted below:
 
-- **Excel Solver** was used to minimize MAPE by adjusting:
-  - \( \alpha \): Level smoothing factor
-  - \( \beta \): Trend smoothing factor
-  - \( \gamma \): Seasonal smoothing factor
+<img width="522" alt="image" src="https://github.com/user-attachments/assets/b868184f-bb4a-4966-abdd-f92101caec17" />
 
-- Solver runs until the best parameter combination is found for **lowest possible error**.
+To evaluate the model’s performance, I calculated the Mean Absolute Percentage Error (MAPE) between the actual and forecasted values from February 2013 to April 2025.
+
+**📉 MAPE: 3.71%**
+
+This error indicates that while the model captures some trend and seasonality, there is room for improvement through parameter optimization.
+
 
 ---
 
@@ -167,7 +173,16 @@ This section explains the complete step-by-step implementation of the Holt-Winte
   - \( \beta \): Trend smoothing factor
   - \( \gamma \): Seasonal smoothing factor
 
+  <img width="960" alt="image" src="https://github.com/user-attachments/assets/0fe16358-e6e6-49c7-9657-cbfe06daff48" />
+
 - Solver runs until the best parameter combination is found for **lowest possible error**.
+
+  <img width="342" alt="image" src="https://github.com/user-attachments/assets/cc673264-bea6-4866-8966-96143bb96b3f" />
+
+- The forecast results after optimizing are plotted below:
+
+  <img width="522" alt="image" src="https://github.com/user-attachments/assets/dabaa8e7-d7f7-4db1-83ac-b68b6c6f1f73" />
+
 
 ---
 
