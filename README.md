@@ -43,9 +43,11 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ### 2. Initializing Values
 
-- **Seasonal Component (Initial)**:  
-  - Calculated from the **first full year (2012)** by subtracting the yearly average from each month's value.
+- **Seasonal Index (Initial)**:  
+  - Calculated from the **first full year (2012)** by dividing each month's value by the average of all 12 months in that year.
+    $\text{Initial Seasonal Index}_{\text{month}} = \frac{\text{Monthly Value}}{\text{Average of the Year}}$
   - Seasonal index for each month is stored for use in later calculations.
+  <img width="710" alt="Image" src="https://github.com/user-attachments/assets/3fd5bb0c-7f4d-42bc-afb2-2eb725b928ee" />
 
 - **Initial Level (ℓ₀)** and **Initial Trend (b₀)**:  
   - Set in **January 2013**:  
