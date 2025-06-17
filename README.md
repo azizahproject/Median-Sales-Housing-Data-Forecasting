@@ -46,7 +46,7 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 - **Seasonal Index (Initial)**:  
   - Calculated from the **first full year (2012)** by dividing each month's value by the average of all 12 months in that year.
 
-    <img width="255" alt="Image" src="https://github.com/user-attachments/assets/91603d7e-9e9b-4c20-8912-7b36b6997781" />
+    <img width="135" alt="Image" src="https://github.com/user-attachments/assets/ac51ec8d-1cbd-4982-8526-46a7647252bf" />
   - Seasonal index for each month is stored for use in later calculations.
 
     <img width="710" alt="Image" src="https://github.com/user-attachments/assets/3fd5bb0c-7f4d-42bc-afb2-2eb725b928ee" />
@@ -54,7 +54,7 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 - **Initial Level (L13)** and **Initial Trend (T13)**:  
   - Set in **January 2013**:
 
-    <img width="516" alt="Image" src="https://github.com/user-attachments/assets/2fa44a0c-90bc-422c-ad85-630295ea6645" />
+    <img width="516" alt="Image" src="https://github.com/user-attachments/assets/8990ec0a-8b8a-4280-a385-135273f93b74" />
 
     <img width="709" alt="Image" src="https://github.com/user-attachments/assets/c3ad4769-7926-4f01-a7f0-d5885197614f" />
 
@@ -62,11 +62,8 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
 ### 3. Calculating Seasonal Value (January 2013)
 
-- Using the additive seasonal formula:  
-  \[
-  s_t = \gamma (y_t - \ell_t) + (1 - \gamma)s_{t-L}
-  \]
-- For January 2013, \( s_t \) is calculated using the initialized level.
+- Using the additive seasonal formula:
+  <img width="197" alt="Image" src="https://github.com/user-attachments/assets/2bfdc7ff-296a-4cf4-b2a9-07e3578a7ee8" />
 
 ---
 
