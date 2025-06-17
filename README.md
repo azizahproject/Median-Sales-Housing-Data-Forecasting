@@ -20,7 +20,7 @@ File : [Median_Sales_Forecast.xlsx](https://github.com/azizahproject/Median-Sale
 
 ### 📈 Methodology
 
-1. Seasonality Check: Analyzed for seasonal behavior (monthly data)  
+1. Seasonality Check: Analyzed for seasonal behavior (monthly data).  
 2. Modeling: Applied Holt-Winters method using: Level (α), Trend (β), and Seasonality (γ).
 3. Forecasting: Extended forecast 8 months ahead.
 4. Evaluation: Compared forecast vs actual using MAPE.
