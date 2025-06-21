@@ -1,6 +1,11 @@
-# 🏠 Monthly Median Sale Price Analysis (2012–2025)
+#Forecasting Median Sale Price of U.S. Housing Market Using Holt-Winters Method (Excel)
+
+## 🏠 Monthly Median Sale Price Analysis (2012–2025)
 
 This section explores the seasonal and long-term trends of median house sale prices in the U.S. housing market from 2012 to 2025. Based on the dataset collected from Redfin, this general overview helps provide context before diving into technical forecasting using the Holt-Winters method.
+
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/e3a1f2ee-1f5a-4282-9731-391b2b6b1b84" />
+
 
 ## 📊 Market Narrative & Insights
 
