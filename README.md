@@ -24,5 +24,5 @@ I created this as a personal learning project to build my forecast analysis skil
 
 ---
 
-➡️ For General Explaination [on Tableau Public](https://public.tableau.com/views/SuperstoreDashboard1_17464702977070/Analysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
-📂 For Technical, see [Project_Dashboard/README.md](https://github.com/azizahproject/Tableau-Superstore-Dashboard/tree/main/1_Project_Dashboard)
+➡️ For General Explaination [General](https://public.tableau.com/views/SuperstoreDashboard1_17464702977070/Analysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+📂 For Technical, see [Technical](https://github.com/azizahproject/Median-Sales-Housing-Data-Forecasting/tree/main/Technical)
