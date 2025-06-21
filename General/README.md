@@ -1,4 +1,4 @@
-#Forecasting Median Sale Price of U.S. Housing Market Using Holt-Winters Method (Excel)
+# Forecasting Median Sale Price of U.S. Housing Market Using Holt-Winters Method (Excel)
 
 ## 🏠 Monthly Median Sale Price Analysis (2012–2025)
 
