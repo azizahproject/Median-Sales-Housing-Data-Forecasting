@@ -139,6 +139,11 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
   <img width="148" alt="image" src="https://github.com/user-attachments/assets/4122e714-78b1-4f35-a63b-90883ab05748" />
 
+  **Root Mean Squared Error (RMSE)**:
+
+  <img width="92" alt="image" src="https://github.com/user-attachments/assets/66a4592c-ae7a-4bfb-8512-0ca77dd41aef" />
+
+  
 - Column **Absolute %Error**
 
   <img width="221" alt="image" src="https://github.com/user-attachments/assets/1ecc9205-618a-42a9-8628-4f2250d0f728" />
@@ -147,6 +152,7 @@ This section explains the complete step-by-step implementation of the Holt-Winte
 
   <img width="217" alt="image" src="https://github.com/user-attachments/assets/a475427d-c6f1-4f17-aee9-4bcc7f00d1b2" />
 
+  
 
 ---
 
