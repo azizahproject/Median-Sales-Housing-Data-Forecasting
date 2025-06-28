@@ -4,7 +4,7 @@
 
 <img width="516" alt="image" src="https://github.com/user-attachments/assets/513133aa-cef4-4f7d-9fb9-89398d3b39cd" />
 
-📁 Data Raw and Forecast
+📁 [Data Raw and Forecast](https://github.com/azizahproject/Median-Sales-Housing-Data-Forecasting/raw/refs/heads/main/Median_Sales_Forecast.xlsx)
 
 ## 📌Project Background
 I created this forecast as both a practice project and a portfolio piece to apply Time Series Analysis (Forecasting) skill. This project aims to forecast the median sales price of houses in the U.S. for the next 8 months. The goal is to provide insights that can assist homebuyers, real estate developers, or policymakers in making data-driven decisions based on housing market trends.
