@@ -1,8 +1,26 @@
-# Forecasting Median Sale Price of U.S. Housing Market Using Holt-Winters Method (Excel)
+# 🏠Forecasting Median Sale Price of U.S. Housing Market Using Holt-Winters Method (Excel)
 
-## 🏠 Monthly Median Sale Price Analysis (2012–2025)
+---
 
-This section explores the seasonal and long-term trends of median house sale prices in the U.S. housing market from 2012 to 2025. Based on the dataset collected from Redfin, this general overview helps provide context before diving into technical forecasting using the Holt-Winters method.
+<img width="516" alt="image" src="https://github.com/user-attachments/assets/513133aa-cef4-4f7d-9fb9-89398d3b39cd" />
+📁 Data Raw and Forecast
+
+## 📌Project Background
+I created this forecast as both a practice project and a portfolio piece to apply Time Series Analysis (Forecasting) skill. This project aims to forecast the median sales price of houses in the U.S. for the next 8 months. The goal is to provide insights that can assist homebuyers, real estate developers, or policymakers in making data-driven decisions based on housing market trends.
+
+## 🔍Objective
+The dataset provided by Redfin clearly exhibits both seasonality and trend over time. Therefore, the Holt-Winters Exponential Smoothing method was chosen, as it effectively accommodates both components in time series forecasting.
+
+## 🧠 Methodology
+
+Tool: Microsoft Excel
+
+Model: Holt-Winters (Triple Exponential Smoothing)
+
+Input: Monthly time series data of median housing prices
+
+Forecast Horizon: 8 months (May 2025 to December 2025)
+
 
 <img width="467" alt="image" src="https://github.com/user-attachments/assets/e3a1f2ee-1f5a-4282-9731-391b2b6b1b84" />
 
