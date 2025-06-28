@@ -181,9 +181,9 @@ Those errors indicates that while the model captures some trend and seasonality,
 ### 8. Optimizing Alpha, Beta, Gamma
 
 - **Excel Solver** was used to minimize MAPE by adjusting:
-  - \( \alpha \): Level smoothing factor
-  - \( \beta \): Trend smoothing factor
-  - \( \gamma \): Seasonal smoothing factor
+  - α: Level smoothing factor
+  - β: Trend smoothing factor
+  - γ: Seasonal smoothing factor
 
   <img width="960" alt="image" src="https://github.com/user-attachments/assets/0fe16358-e6e6-49c7-9657-cbfe06daff48" />
 
