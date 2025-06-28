@@ -189,12 +189,15 @@ Those errors indicates that while the model captures some trend and seasonality,
 
 - Solver runs until the best parameter combination is found for **lowest possible error**.
 
-  <img width="342" alt="image" src="https://github.com/user-attachments/assets/cc673264-bea6-4866-8966-96143bb96b3f" />
+  <img width="336" alt="image" src="https://github.com/user-attachments/assets/335d9cae-6d16-4881-885e-8b1fa6f4ffae" />
 
 - The forecast results after optimizing are plotted below:
 
-  <img width="522" alt="image" src="https://github.com/user-attachments/assets/dabaa8e7-d7f7-4db1-83ac-b68b6c6f1f73" />
+  <img width="523" alt="image" src="https://github.com/user-attachments/assets/ef4507c0-63a0-4fed-a161-e2b58bdb321f" />
 
+### 10. Compare Acrual vs Forecasting vs Forecasting after Optimize
+
+<img width="433" alt="image" src="https://github.com/user-attachments/assets/8c84c97d-fdb0-4039-b58f-c0a5402d8571" />
 
 ---
 
