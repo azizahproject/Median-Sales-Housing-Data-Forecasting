@@ -12,21 +12,18 @@ I created this forecast as both a practice project and a portfolio piece to appl
 ## 🔍Objective
 The dataset provided by Redfin clearly exhibits both seasonality and trend over time. Therefore, the Holt-Winters Exponential Smoothing method was chosen, as it effectively accommodates both components in time series forecasting.
 
-## 🧠 Methodology
+## 🧠Methodology
 
-Tool: Microsoft Excel
+**Tool**: Microsoft Excel
 
-Model: Holt-Winters (Triple Exponential Smoothing)
+**Model**: Holt-Winters (Triple Exponential Smoothing)
 
-Input: Monthly time series data of median housing prices
+**Input**: Monthly time series data of median housing prices
 
-Forecast Horizon: 8 months (May 2025 to December 2025)
-
-
-<img width="467" alt="image" src="https://github.com/user-attachments/assets/e3a1f2ee-1f5a-4282-9731-391b2b6b1b84" />
+**Forecast Horizon**: 8 months (May 2025 to December 2025)
 
 
-## 📊 Market Narrative & Insights
+## 📊Market Narrative & Insights
 
 Based on monthly median sale price data, several consistent seasonal patterns and growth behaviors can be identified:
 
@@ -42,9 +39,8 @@ Following a price drop after the summer months, prices usually **rebound by Dece
 ### 4. Resilience During the COVID-19 Pandemic
 Despite global uncertainty during **2020–2021**, home prices **did not decline**. Instead, they **continued to rise**, signaling the housing market's resilience—driven by tight supply, strong demand, and low mortgage rates.
 
----
 
-## 💡 Conclusion
+## 📝Conclusion
 
 These trends reveal a clear pattern:  
 - Early year = low prices  
@@ -52,3 +48,12 @@ These trends reveal a clear pattern:
 - End of year = recovery  
 
 Understanding these patterns is essential when applying time series forecasting methods like Holt-Winters. The seasonal strength of the housing market provides a strong foundation for accurate forecasting and strategic decision-making for buyers, sellers, and investors alike.
+
+---
+
+### 💡 Reflection & Lessons Learned
+I had previously learned and applied the Holt-Winters method during my undergraduate studies. This project was an opportunity to revisit that knowledge and reinforce my understanding while also expanding my data portfolio.
+
+Microsoft Excel was the most accessible tool for revisiting the basics of forecasting, as it allowed me to perform the calculations manually. This hands-on process helped sharpen my grasp of the underlying concepts. Although Excel may not be the fastest or most scalable tool, it was sufficient to produce meaningful results for this project.
+
+Moving forward, I plan to explore forecasting using Python or R to enable better automation, scalability, and more robust model evaluation.
