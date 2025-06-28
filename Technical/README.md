@@ -21,7 +21,7 @@ File : [Median_Sales_Forecast.xlsx](https://github.com/azizahproject/Median-Sale
 1. Seasonality Check: Analyzed for seasonal behavior (monthly data).  
 2. Modeling: Applied Holt-Winters method using: Level (α), Trend (β), and Seasonality (γ).
 3. Forecasting: Extended forecast 8 months ahead.
-4. Evaluation: Compared forecast vs actual using MAPE.
+4. Evaluation: Compared forecast vs actual using RMSE.
 5. Optimization: Used the **Solver tool** in Excel to optimize α, β, and γ parameters to minimize MAPE between forecast and actual values.
 
 > 📎 *All formulas and forecasting logic were built entirely in Excel, including the Solver-based parameter tuning process.*
@@ -165,13 +165,15 @@ Using α, β, and γ:
 
 The forecast results are plotted below:
 
-<img width="522" alt="image" src="https://github.com/user-attachments/assets/b868184f-bb4a-4966-abdd-f92101caec17" />
+<img width="522" alt="image" src="https://github.com/user-attachments/assets/c94e95f8-0aab-42bb-ae62-66e559aa49c3" />
 
-To evaluate the model’s performance, I calculated the Mean Absolute Percentage Error (MAPE) between the actual and forecasted values from February 2013 to April 2025.
+To evaluate the model’s performance, I calculated the errors between the actual and forecasted values from February 2013 to April 2025.
 
-**📉 MAPE: 3.71%**
+<img width="336" alt="image" src="https://github.com/user-attachments/assets/65176b32-a554-4154-aaac-d008f917a196" />
 
-This error indicates that while the model captures some trend and seasonality, there is room for improvement through parameter optimization.
+**📉 RMSE: 25342.07644**
+
+Those errors indicates that while the model captures some trend and seasonality, there is room for improvement through parameter optimization.
 
 
 ---
