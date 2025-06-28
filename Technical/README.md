@@ -199,6 +199,10 @@ Those errors indicates that while the model captures some trend and seasonality,
 
 <img width="433" alt="image" src="https://github.com/user-attachments/assets/8c84c97d-fdb0-4039-b58f-c0a5402d8571" />
 
+The comparison results show that the forecast after parameter optimization produces a smaller error. This is also reflected in the RMSE value, which decreased after tuning.
+
+The Solver feature in Excel was particularly helpful in finding the optimal parameter values (alpha, beta, gamma) that minimized the forecasting error.
+
 ---
 
 > ✅ All computations were done in **Microsoft Excel**, using structured formulas, absolute cell referencing, and Solver for optimization.
