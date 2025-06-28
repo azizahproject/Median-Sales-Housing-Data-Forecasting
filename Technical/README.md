@@ -178,14 +178,14 @@ Those errors indicates that while the model captures some trend and seasonality,
 
 ---
 
-### 8. Optimizing Alpha, Beta, Gamma
+### 9. Optimizing Alpha, Beta, Gamma
 
-- **Excel Solver** was used to minimize MAPE by adjusting:
+- **Excel Solver** was used to minimize RMSE by adjusting:
   - α: Level smoothing factor
   - β: Trend smoothing factor
   - γ: Seasonal smoothing factor
 
-  <img width="960" alt="image" src="https://github.com/user-attachments/assets/0fe16358-e6e6-49c7-9657-cbfe06daff48" />
+  <img width="960" alt="image" src="https://github.com/user-attachments/assets/397ea265-99e4-4a57-8b8d-9cf0f43f54c7" />
 
 - Solver runs until the best parameter combination is found for **lowest possible error**.
 
